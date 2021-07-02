@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: rgba(170, 72, 165, 0.863);
+        }
+
+        .item {
+            border: 2px solid rgb(130, 235, 32);
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(248, 201, 201);
+
+        }
+
+        #fruits {
+            float: left;
+            width: 50%;
+
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #box {
+            /* float: left; */
+            width: 100%;
+            clear: both;
+
+        }
+
+        p,
+        h3 {
+            text-align: left;
+        }
+
+        h2 {
+            width: 500px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Welcome To my store</h2>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus
+                facere ducimus optio similique sed dignissimos odio asperiores aspernatur veniam?Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Ullam voluptatem asperiores atque dolorem, cupiditate sint possimus
+                consequuntur officia ipsam modi.</p>
+        </div>
+
+
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus
+                facere ducimus optio similique sed dignissimos odio asperiores aspernatur veniam?Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Magni recusandae aspernatur ut. Magni vero quaerat repellat ex omnis
+                quidem doloremque.</p>
+        </div>
+
+
+
+        <div id="box" class="item">
+            <h3>Box</h3>
+            <p id="boxspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus facere
+                ducimus optio similique sed dignissimos odio asperiores aspernatur veniam?</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glasses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt autem cupiditate a magni!
+                Quibusdam architecto assumenda pariatur enim, temporibus quasi.</p>
+        </div>
+    </div>
+</body>
+
+</html>
